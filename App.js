@@ -83,7 +83,7 @@ export default function App() {
           <View style = {styles.choicesContainer}>
             <Choice CHOICE = {CHOICES[userChoice]} name = "You"/>
             <Text>vs</Text>
-            <Choice CHOICE = {CHOICES[userChoice]} name = "Computer"/>
+            <Choice CHOICE = {CHOICES[computerChoice]} name = "Computer"/>
           </View>
           {
             CHOICES.map( (choice, index) => {
